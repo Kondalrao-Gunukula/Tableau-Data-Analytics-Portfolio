@@ -14,10 +14,15 @@ Two end-to-end analytics projects: **data audit and cleaning -> KPI design -> da
 
 https://github.com/user-attachments/assets/07cd441f-abe5-45d0-aa41-e31dfd62cb98
 
+> 🔗 **Read the breakdown on LinkedIn:** [Steam Game Success Case Study](https://lnkd.in/p/dxyhGQuY)
+
+
+
 **2. Orbital Congestion Dashboard**
 
 
 https://github.com/user-attachments/assets/0314ca4c-ee6a-4d89-ab5f-ee136ca5948c
+> 🔗 **Read the breakdown on LinkedIn:** [Orbital Congestion Analysis Post](PASTE_YOUR_ORBITAL_LINKEDIN_POST_URL_HERE)
 
 
 
