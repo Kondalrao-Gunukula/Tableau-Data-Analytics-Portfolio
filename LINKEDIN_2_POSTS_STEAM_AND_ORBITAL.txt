@@ -1,0 +1,108 @@
+=====================================================================
+POST 1 OF 2 - STEAM  (post this first)
+=====================================================================
+
+Why do only 4.6% of Steam games become hits? 🎮
+
+I just finished the first of two Tableau dashboard projects I built with Imarticus Learning, and the answer surprised me.
+
+THE QUESTION
+Thousands of games launch on Steam every year, but only a few earn strong reviews AND large player bases. What do the winners have in common?
+
+THE DATA
+93,102 games after cleaning. I defined a "Hit" as 50+ reviews, 80%+ positive reviews and 500,000+ estimated owners, so a game needs quality AND reach.
+
+WHAT I FOUND
+🔹 Only 4.6% of 31,647 rated games are Hits
+🔹 Launch price $40+: 17.3% hit rate. Under $5: 1.2%
+🔹 16+ supported languages: 11.9%. One language: 1.9%
+🔹 Multiplayer, cloud saves, controller support and achievements were each linked to a higher hit rate
+🔹 Games with a Metascore of 85+: 52.7% hit rate
+🔹 75% of all games have fewer than 20,000 owners. It is a winner-takes-most market
+
+THE PART I'M MOST PROUD OF
+Raw numbers can mislead, so I tested them with a regression that controls for genre and release year. Price, languages and features held up. The "best genre" story mostly disappeared. So I labelled that chart "raw", faded the small samples, and kept the claims to association, not causation.
+
+DATA WORK BEHIND THE CHARTS
+✅ Fixed corrupt prices (up to €599,000)
+✅ Removed 1,297 software items hiding in a games file
+✅ Repaired mislabelled genres and a placeholder language count
+✅ Checked all 90 numbers on the dashboard against the raw data
+
+Lesson learned: a clean definition of success matters more than a clever chart.
+
+Thank you Imarticus Learning and my mentors for the guidance. 🙏
+
+📂 Data, reports and the Tableau build kit are on GitHub (link in the comments). Part 2, on satellites and space debris, is coming soon 🛰️
+
+What would you add to this analysis?
+
+#Tableau #DataVisualization #DataAnalytics #DataStorytelling #GameAnalytics #Steam #BusinessIntelligence #DataCleaning #ImarticusLearning #LearningInPublic #Portfolio
+
+
+FIRST COMMENT FOR POST 1:
+Code, data, reports and the Tableau build kit: https://github.com/YOUR-USERNAME/tableau-steam-orbital-dashboards
+Live interactive Steam dashboard: https://YOUR-USERNAME.github.io/tableau-steam-orbital-dashboards/steam.html
+
+
+=====================================================================
+POST 2 OF 2 - ORBITAL  (post 2-3 days later)
+=====================================================================
+
+Low Earth orbit is getting crowded. But where, and who is causing it? 🛰️
+
+This is Part 2 of my two Tableau dashboard projects with Imarticus Learning (Part 1 was on what makes a Steam game succeed).
+
+THE QUESTION
+Thousands of new satellites are filling low Earth orbit and raising collision risk. Which operators, countries and altitude bands drive the crowding?
+
+A NOTE ON THE DATA
+The dataset I worked with is a synthetic sample of 5,000 satellites, so these findings show the method and the dashboard design, not real orbital facts. It is structured like the CelesTrak catalogue, so it can be swapped for real data.
+
+WHAT THE SAMPLE SHOWS
+🔹 86% of payloads sit in low Earth orbit
+🔹 53% share a single 100 km shell (500-600 km), about 7x denser than the next shell
+🔹 Four mega-constellations supply half of all payloads
+🔹 One operator alone accounts for 40% of the sample
+🔹 The US owns 60% of payloads
+🔹 Tracked debris plus rocket bodies grew 81% (16,532 to 29,919)
+
+THE INSIGHT THAT CHANGED HOW I BUILT IT
+Total satellite count hides the risk. Crowding depends on where objects sit, so I measured objects per 100 km of orbit for each altitude band. Even when I counted only operational satellites, the 500-600 km shell stayed about 6.6x denser than the next one.
+
+DATA WORK BEHIND THE CHARTS
+✅ Found 111 satellites attributed to operators before those operators existed, and fixed them
+✅ Corrected 172 impossible negative orbital inclinations
+✅ Rebuilt labels so altitude bands sort correctly
+✅ Checked every number on the dashboard against the data
+
+Lesson learned: choose the right unit of risk before you choose the chart.
+
+Thank you Imarticus Learning and my mentors for the support. 🙏
+
+📂 Everything is open on GitHub (link in the comments).
+
+Which chart would you want to see added next?
+
+#Tableau #DataVisualization #DataAnalytics #DataStorytelling #SpaceTech #SpaceDebris #BusinessIntelligence #DataCleaning #ImarticusLearning #LearningInPublic #Portfolio
+
+
+FIRST COMMENT FOR POST 2:
+Code, data, reports and the Tableau build kit: https://github.com/YOUR-USERNAME/tableau-steam-orbital-dashboards
+Live interactive Orbital dashboard: https://YOUR-USERNAME.github.io/tableau-steam-orbital-dashboards/orbital.html
+(Part 1 on Steam: paste the link to your first post here)
+
+
+=====================================================================
+TIPS FOR BOTH POSTS
+=====================================================================
+1. Images:  Post 1 -> dashboards/screenshots/steam_dashboard_overview.png + steam_dashboard_filtered_racing.png
+            Post 2 -> dashboards/screenshots/orbital_dashboard_overview.png + orbital_dashboard_filtered_starlink.png
+2. Tag the company: type @Imarticus and pick "Imarticus Learning" from the dropdown so it becomes a real tag. Tag your mentor too (optional).
+3. Put links in the FIRST COMMENT, not the post body.
+4. Be accurate about tools: say "built in Tableau" only for visuals you built in Tableau. The screenshots in the kit come from interactive HTML dashboards, so if you use them, write "interactive dashboard". If you post a screenshot of your own Tableau workbook, use the Tableau wording.
+5. Keep the "synthetic sample" paragraph in Post 2. It protects your credibility.
+6. Post 2 hashtags: #SpaceDebris is niche but relevant; remove it if you want broader reach.
+7. LinkedIn works well with 5-8 hashtags. If you want fewer, keep: #Tableau #DataAnalytics #DataVisualization #ImarticusLearning #Portfolio #LearningInPublic
+8. Best time: Tuesday-Thursday, 8-10 AM IST. Space the posts 2-3 days apart, and reply to every comment within the first hour.
+9. Replace YOUR-USERNAME in the comment links with your GitHub username after you create the repo.
