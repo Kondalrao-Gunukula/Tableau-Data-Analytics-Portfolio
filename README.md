@@ -12,8 +12,14 @@ Two end-to-end analytics projects: **data audit and cleaning -> KPI design -> da
 **1. Steam Game Success Dashboard**
 
 
+https://github.com/user-attachments/assets/07cd441f-abe5-45d0-aa41-e31dfd62cb98
 
 **2. Orbital Congestion Dashboard**
+
+
+https://github.com/user-attachments/assets/0314ca4c-ee6a-4d89-ab5f-ee136ca5948c
+
+
 
 
 
