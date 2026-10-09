@@ -7,11 +7,18 @@
 
 Two end-to-end analytics projects: **data audit and cleaning -> KPI design -> dashboard -> quality assurance -> documentation.**
 
-**Live interactive dashboards:** https://YOUR-USERNAME.github.io/tableau-steam-orbital-dashboards/
+### Live Dashboard Walkthroughs
 
-| | |
-|---|---|
-| ![Steam dashboard](dashboards/screenshots/steam_dashboard_overview.png) | ![Orbital dashboard](dashboards/screenshots/orbital_dashboard_overview.png) |
+**1. Steam Game Success Dashboard**
+
+
+
+**2. Orbital Congestion Dashboard**
+
+
+
+
+
 
 ---
 
