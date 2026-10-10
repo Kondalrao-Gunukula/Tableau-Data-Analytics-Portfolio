@@ -123,7 +123,7 @@ Tableau | Microsoft Excel | Python (pandas, statsmodels) for cleaning and checks
 * Completed as part of my learning journey with **Imarticus Learning**.
 
 ## Author
-**Your Name** - https://www.linkedin.com/in/kondalrao-gunukula-b805a725b/?isSelfProfile=true - kondalrao204@gmail.com
+**Kondalrao Gunukula** - https://www.linkedin.com/in/kondalrao-gunukula-b805a725b/?isSelfProfile=true - kondalrao204@gmail.com
 
 ## Licence
 Code and documentation: MIT (see [`LICENSE`](LICENSE)). Data files keep the licence terms of their original sources.
